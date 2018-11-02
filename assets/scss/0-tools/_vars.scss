@@ -12,6 +12,13 @@ $secondaryfont-weight-boldish: 500;
 $secondaryfont-weight-bold: 700;
 $secondaryfont-weight-black: 900;
 
+$oswaldfont-stack: 'Oswald', sans-serif;
+$oswaldfont-weight-regular: 400;
+$oswaldfont-weight-boldish: 500;
+$oswaldfont-weight-bold: 700;
+
+$sairafont-stack: 'Saira', sans-serif;
+
 //Image path for most of global style sheet
 $imagedir:'/assets/img/';
 
@@ -44,6 +51,8 @@ $btn-primary-border: #003773;
 $btn-hover-bg: #022b55;
 $btn-hover-border: #021e3d;
 $darker-link: #006ce0;
+
+$light-blue: #ccdde1;
 
 html,
 body {

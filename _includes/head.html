@@ -19,11 +19,15 @@
         <!-- Link to Google Font's "Open Sans" font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
         <!-- Link to Google Font's "Oswald" font -->
-        <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Saira:400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/mli7lsm.css">
         <!-- Place favicon.ico in the root directory -->
         <!-- Standard Favicon -->
         <link rel="icon" type="image/x-icon" href="{{page.baseurl}}favicon.ico" />
+        <!-- targetx styling -->
+        {% include targetx-head.html %}
         <!-- Custom CSS Stylesheet -->
         <link rel="stylesheet" href="{{page.baseurl}}assets/css/main.css">
         <!-- Custom CSS Stylesheet for CloudCannon -->
@@ -32,7 +36,7 @@
         <!-- <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
         <META HTTP-EQUIV="Expires" CONTENT="-1"> -->
     </head>
-    <body id="page-top">
+    <body>
       {% if jekyll.environment == "publish" %}
         <!-- include Google Tag Manager noscript on production -->
         {% include google-noscript.html %}
