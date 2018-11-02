@@ -1,7 +1,11 @@
 
 .accredited__card {
   background-color: $primary-blue;
-  padding: 15px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  width: 90%
 }
 
 @media screen and (min-width: 400px) {
