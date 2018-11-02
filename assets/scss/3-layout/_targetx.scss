@@ -2,8 +2,20 @@
 // ========================================
 
 .targetx__wrapper {
-  margin-top: -35px;
+  margin-top: -25px;
   z-index: -1;
+}
+
+@media screen and (min-width: 1200px) {
+  .targetx__wrapper {
+     margin-top: -15px
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .targetx__wrapper {
+     margin-top: -35px
+  }
 }
 
 // STYLE OVERRIDES TO TARGETX's STYLESHEET:
