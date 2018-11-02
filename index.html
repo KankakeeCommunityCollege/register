@@ -98,24 +98,37 @@ description: ''
   </div>
 </section>
 
-<section class="positioning__section--marg">
+<section class="positioning__section--marg positioning__blue-section">
   <div class="container">
     <div class="row">
       <div class="col">
         <h5 class="typography__register--h5 text-center">Recognized & Accredited</h5>
       </div>
     </div>
-    <div class="row positioning__register--mobile-row--pad">
+    <div class="row">
       <div class="col-12 col-lg-4 text-center text-lg-left">
-        <img src="{{ page.baseurl }}uploads/accredited.png" class="positioning__register--iccb-img" alt="KCC  is accredited by the Higher Learning Commission (hlcommission.org), a regional accreditation agency recognized by the U.S. Department of Education.">
+        <div class="accredited__card mx-auto">
+          <div class="text-center">
+            {% include check.svg %}
+            <span class="accredited__span-l">KCC  is Accredited</span>
+            <span class="accredited__span-s">by the Higher Learning Commission (hlcommission.org), a regional accreditation agency recognized by the U.S. Department of Education.</span>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-lg-4 text-center text-lg-left">
+      <div class="col-12 col-lg-4 text-center">
         <img src="{{ page.baseurl }}/uploads/zippia.png" class="positioning__register--idfpr-img" alt="#1 community college in Illinois for job placement according to Zippia.com">
-        <span>Source: Zippia.com</span>
+        <span class="accredited__span--source text-left">Source: Zippia.com</span>
       </div>
       <div class="col-12 col-lg-4">
-        <img src="{{ page.baseurl }}uploads/itransfer.png" alt="Illinois Itransfer logo" class="positioning__register--itransfer-img float-left">
-        <span class="typography__register-itransfer">Illinois<br> Transfer<br> Articulation<br></span>
+        <div class="row">
+          <div class="col">
+            <img src="{{ page.baseurl }}uploads/itransfer.png" alt="Illinois Itransfer logo" class="positioning__register--itransfer-img float-right">
+          </div>
+          <div class="col">
+            <span class="typography__register-itransfer">Illinois<br> Transfer<br> Articulation<br></span>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   </div>
