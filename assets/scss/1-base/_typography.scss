@@ -505,3 +505,36 @@ p.general-p {
 .typography__larger-p {
   font-size: 1.2rem;
 }
+
+.typography__register--thank-you {
+  color: $primary-blue;
+  font-family: $eurostilefont-stack;
+  font-size: 2rem;
+  &--message {
+    color: $primary-red;
+    font-family: $sairafont-stack;
+    font-weight: $secondaryfont-weight-bold;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__register--thank-you {
+    font-size: 2.4rem;
+    &--message {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__register--thank-you {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .typography__register--thank-you {
+    font-size: 3rem;
+  }
+}
