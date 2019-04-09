@@ -200,11 +200,11 @@
 }
 
 .positioning__col--offset {
-  margin-left: -25px;
+  margin-right: -25px;
 }
 
 @media screen and (min-width: 768px) {
   .positioning__col--offset {
-    margin-left: -45px;
+    margin-right: -45px;
   }
 }
