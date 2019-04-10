@@ -22,15 +22,15 @@ $(document).ready(function() {
             event.preventDefault();
             $('html, body').animate({scrollTop: $target.offset().top-60}, 1000, function () {
               location.hash = target;
-              $target.focus();
-              selectForm();
-              if ($target.is(":focus")){ //checking if the target was focused
-                return false;
-              }else{
-                $target.attr('tabindex','-1'); //Adding tabindex for elements not focusable
-                $target.focus(); //Setting focus
-                selectForm();
-              };
+              selectFormInput();
+              //event.preventDefault();
+              //if ($target.is(":focus")){ //checking if the target was focused
+              //  return false;
+              //}else{
+              //  $target.attr('tabindex','-1'); //Adding tabindex for elements not focusable
+              //  $target.focus(); //Setting focus
+              //  selectForm();
+              //}
             });
           });
         }
@@ -38,8 +38,7 @@ $(document).ready(function() {
     }
   });
 });
-function selectForm() {
-  const TARGETX_INPUT_ID = document.getElementById('tfa_11'); // targetX's stupid ID
-  TARGETX_INPUT_ID.focus();
+function selectFormInput() {
+  const TARGETX_INPUT_ID = $('#tfa_11');
   TARGETX_INPUT_ID.select();
 }

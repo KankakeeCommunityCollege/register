@@ -35,3 +35,12 @@ p.supportInfo {
     padding: 1rem 2rem !important;
   }
 }
+
+#tfa_11::before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+  pointer-events: none;
+}
