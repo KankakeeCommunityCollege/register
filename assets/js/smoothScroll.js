@@ -20,14 +20,16 @@ $(document).ready(function() {
         if (target) {
           $(this).click(function (event) {
             event.preventDefault();
-            $('html, body').animate({scrollTop: $target.offset().top}, 1000, function () {
+            $('html, body').animate({scrollTop: $target.offset().top-60}, 1000, function () {
               location.hash = target;
               $target.focus();
+              selectForm();
               if ($target.is(":focus")){ //checking if the target was focused
                 return false;
               }else{
                 $target.attr('tabindex','-1'); //Adding tabindex for elements not focusable
                 $target.focus(); //Setting focus
+                selectForm();
               };
             });
           });
@@ -36,3 +38,8 @@ $(document).ready(function() {
     }
   });
 });
+function selectForm() {
+  const TARGETX_INPUT_ID = document.getElementById('tfa_11'); // targetX's stupid ID
+  TARGETX_INPUT_ID.focus();
+  TARGETX_INPUT_ID.select();
+}
