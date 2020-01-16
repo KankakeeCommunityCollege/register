@@ -1,6 +1,8 @@
 title: "Kankakee Community College"
-google_analytics_key: UA-4328282-19
+theme: kcc-gem-theme
+public-url: https://register.kcc.edu
 url: https://register.kcc.edu
+google_tag-key: GTM-N722V2X
 collections:
   posts:
     output: false
@@ -39,10 +41,10 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "gulpconfig.yml"
-  - "/docs/"
-  - "yarn.lock"
-  - "/assets/adobe/"
   - "gulp-tasks/"
+  - "install.sh"
+  - "siteicon.png"
+  - "webpack.config.js"
 
 uploads_dir: # specifies the default uploads directory for CloudCannon
   - "uploads/"
