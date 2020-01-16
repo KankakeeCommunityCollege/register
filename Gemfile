@@ -1,3 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
+gem 'jekyll', '~> 4.0.0'
+gem 'kcc-gem-theme', '~> 1'
