@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        <loc>http://news.kcc.edu/</loc>
-        <lastmod>2019-08-27T20:59:21.476Z</lastmod>
+        
+        <loc>styleguide.kcc.edu/</loc>
+    
+        
+        <lastmod>2020-01-16T18:04:34.961Z</lastmod>
+    
     </url>
     <url>
-        <loc>http://news.kcc.edu/thank-you/</loc>
-        <lastmod>2019-08-27T20:59:21.477Z</lastmod>
+        
+        <loc>styleguide.kcc.edu/thank-you/</loc>
+    
+        
+        <lastmod>2020-01-16T18:04:34.961Z</lastmod>
+    
     </url>
 </urlset>
