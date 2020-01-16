@@ -1,5 +1,5 @@
 ### Ignore the Gemfile to keep it out of cloudcannon ###
-Gemfile
+#Gemfile
 
 ### General Apple things to ignore ###
 .DS_Store
@@ -32,17 +32,15 @@ _site
 .sass-cache
 .jekyll-metadata
 
+
+### Nodejs Stuffs ###
 # Ignore node modules
 node_modules/
+# Avoid win/mac/linux version discrepancies
+package-lock.json
 
-# Ignore gem lock to avoid mac/windows discrepencies
+# Ignore gem lock to avoid mac/windows discrepancies
 Gemfile.lock
 
-# Ignore adobe directory containing working illustrator, photoshop,
-assets/adobe/
-assets/adobe/*
-/adobe/
-adobe/*
-
-# Yarn error log
-yarn-error.log
+# Jekyll 4's new caching dir
+.jekyll-cache/
