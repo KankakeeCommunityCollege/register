@@ -2,7 +2,7 @@ title: "Kankakee Community College"
 theme: kcc-gem-theme
 public-url: https://register.kcc.edu
 url: https://register.kcc.edu
-google_tag-key: GTM-N722V2X
+google-tag_key: GTM-N722V2X
 collections:
   posts:
     output: false
