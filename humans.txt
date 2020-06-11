@@ -1,0 +1,35 @@
+/* TEAM */
+
+  Director of Marketing: Kari Nugent
+  from: Illinois
+
+  Backend Architecture/DevOps: Roger Ehmpke
+  twitter: @rehmpke
+  github: https://github.com/rehmpke
+  personal-website: https://www.rogerehmpke.com/
+  from: Illinois
+
+  Web development & coding: Wesley Zajicek
+  github: https://github.com/wdzajicek
+  personal-website: https://wesleyzajicek.com
+  from: Illinois
+
+  Editor: Ellen Schmidt
+  from: Illinois
+
+  Graphic design & mockups: Diane Soltis
+  from: Illinois
+
+  Graphic design & mockups: Shaun McSparin
+  from: Illinois
+
+
+/* THIS FILE */
+  Last update: 2020/06/11
+
+
+/* SITE */
+
+  Year of creation: 2019
+	Language: English
+	Doctype: HTML5

@@ -185,7 +185,43 @@
 }
 
 .positioning__heading--row {
-  margin-top: 16%;
+  margin-top: 32%;
+}
+
+@media screen and (min-width: 360px) {
+  .positioning__heading--row {
+    margin-top: 38%;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+  .positioning__heading--row {
+    margin-top: 28%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (orientation: landscape) {
+  .positioning__heading--row {
+    margin-top: 36%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (orientation: portrait) {
+  .positioning__heading--row {
+    margin-top: 28%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscsape) {
+  .positioning__heading--row {
+    margin-top: 28%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .positioning__heading--row {
+    margin-top: 18%;
+  }
 }
 
 .positioning__check-svg {
