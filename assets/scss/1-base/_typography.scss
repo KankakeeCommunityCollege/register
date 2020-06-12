@@ -540,3 +540,8 @@ p.general-p {
     font-size: 3rem;
   }
 }
+
+.typography__p--no-margin-bottom p {
+  margin-bottom: 0.125rem;
+  margin-left: 1.5rem;
+}
