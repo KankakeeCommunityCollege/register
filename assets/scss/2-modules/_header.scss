@@ -2,16 +2,50 @@
 // ==========================================
 
 .header__bg {
-  background-image: url('/uploads/summer-background-2020_D85_0160.jpg');
+  background-image: none; // Needed to override the gem-theme's background image.
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 55%;
   height: 55vh;
+  z-index: -1;
 }
 
 @media screen and (min-width: 1200px) {
   .header__bg {
     height: auto;
   }
+}
+
+.header__img--tiny {
+  background-image: url('/uploads/tiny-background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  transition-property: opacity;
+  transition-duration: 2s;
+  width: 100%;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.header__img--fade-out {
+  opacity: 0;
+}
+
+.header__img--loaded {
+  background-image: url('/uploads/summer-background-2020_D85_0160.jpg');
 }

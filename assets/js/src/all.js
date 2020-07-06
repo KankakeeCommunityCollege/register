@@ -1,5 +1,5 @@
-import test from './test.js';
+import loadLargeHeaderImage from './loadLargeHeaderImage.js';
 
 document.addEventListener('DOMContentLoaded', function() {
-  test();
+  loadLargeHeaderImage();
 });
