@@ -1,23 +1,11 @@
 title: "Kankakee Community College"
-theme: kcc-gem-theme
+theme: landing-page-gem
 public-url: https://register.kcc.edu
 url: https://register.kcc.edu
-# BUILD
+port: 3000
 google-tag_key: GTM-N722V2X
-collections:
-  posts:
-    output: false
-    _hide_content: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    title: ''
-    permalink: /:categories/:title/
-    baseurl: ../../../
-    categories: news
+custom_site_js: false
+custom_site_styling: true
 permalink: pretty
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -33,7 +21,6 @@ future: true
 markdown: kramdown
 
 exclude:
-  - "gulpfile.js"
   - "node_modules"
   - "npm-debug.log"
   - "package.json"
@@ -41,11 +28,10 @@ exclude:
   - "README.md"
   - "Gemfile"
   - "Gemfile.lock"
-  - "gulpconfig.yml"
-  - "gulp-tasks/"
-  - "install.sh"
   - "siteicon.png"
   - "webpack.config.js"
+  - "buildtools/"
+  - "postcss.config.js"
 
 uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
 

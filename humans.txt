@@ -1,35 +1,17 @@
+---
+layout: null
+---
+
 /* TEAM */
 
-  Director of Marketing: Kari Nugent
-  from: Illinois
-
-  Backend Architecture/DevOps: Roger Ehmpke
-  twitter: @rehmpke
-  github: https://github.com/rehmpke
-  personal-website: https://www.rogerehmpke.com/
-  from: Illinois
-
-  Web development & coding: Wesley Zajicek
-  github: https://github.com/wdzajicek
-  personal-website: https://wesleyzajicek.com
-  from: Illinois
-
-  Editor: Ellen Schmidt
-  from: Illinois
-
-  Graphic design & mockups: Diane Soltis
-  from: Illinois
-
-  Graphic design & mockups: Shaun McSparin
-  from: Illinois
-
-
-/* THIS FILE */
-  Last update: 2020/06/11
-
+Name: Wesley Zajicek
+Role: Developer/Gem theme developer/Project build-template developer/Site-maintenance
+Site: https://wesleyzajicek.com
+Github: https://github.com/wdzajicek
 
 /* SITE */
 
-  Year of creation: 2019
-	Language: English
-	Doctype: HTML5
+Copyright {{ "today" | date: "%Y" }} Kankakee Community College
+Last update: {{ "today" | date: "%m/%d/%Y %H:%M" }} CST
+Standards: HTML5, CSS3, ES6/JavaScript, CommonJS, SCSS, YAML, Liquid - templating language, and more. Oh, yes, and a tiny JQuery when absolutely necessary
+Tools: Jekyll, Webpack, Babel/Corejs-3, Autoprefixer, Nodejs, ES6, Google YouTube & Sheets API's, Gulp, CloudCannon, and other open-source packages
