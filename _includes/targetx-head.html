@@ -1,12 +1,14 @@
 <!-- FORM: HEAD SECTION -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="referrer" content="no-referrer-when-downgrade">
+<!-- THIS SCRIPT NEEDS TO BE LOADED FIRST BEFORE wforms.js -->
+<script type="text/javascript" data-for="FA__DOMContentLoadedEventDispatch" src="https://kcc.tfaforms.net/js/FA__DOMContentLoadedEventDispatcher.js" defer></script>
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function(){
+  document.addEventListener("FA__DOMContentLoaded", function(){
     const FORM_TIME_START = Math.floor((new Date).getTime()/1000);
     let formElement = document.getElementById("tfa_0");
     if (null === formElement) {
-      formElement = document.getElementById("0");
+        formElement = document.getElementById("0");
     }
     let appendJsTimerElement = function(){
       let formTimeDiff = Math.floor((new Date).getTime()/1000) - FORM_TIME_START;
@@ -36,11 +38,12 @@
     }
   });
 </script>
-<link href="https://kcc.tfaforms.net/dist/form-builder/5.0.0/wforms-layout.css?v=1057da584dedb1a9fc858c69065fd0c9868a93f0" rel="stylesheet" type="text/css" />
+<link href="https://kcc.tfaforms.net/dist/form-builder/5.0.0/wforms-layout.css?v=93e3804793484fd8e47cd794576cba3b6741e796" rel="stylesheet" type="text/css" />
 <link href="https://kcc.tfaforms.net/uploads/themes/theme-7.css" rel="stylesheet" type="text/css" />
-<link href="https://kcc.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=1057da584dedb1a9fc858c69065fd0c9868a93f0" rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
-<script type="text/javascript" src="https://kcc.tfaforms.net/wForms/3.11/js/wforms.js?v=1057da584dedb1a9fc858c69065fd0c9868a93f0"></script>
+<link href="https://kcc.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=93e3804793484fd8e47cd794576cba3b6741e796" rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
+<script type="text/javascript" src="https://kcc.tfaforms.net/wForms/3.11/js/wforms.js?v=93e3804793484fd8e47cd794576cba3b6741e796"></script>
 <script type="text/javascript">
   wFORMS.behaviors.prefill.skip = false;
 </script>
-<script type="text/javascript" src="https://kcc.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=1057da584dedb1a9fc858c69065fd0c9868a93f0"></script>
+<script type="text/javascript" src="https://kcc.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=93e3804793484fd8e47cd794576cba3b6741e796"></script>
+<!-- END: FORM HEAD -->
