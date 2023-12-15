@@ -3,7 +3,6 @@ theme: landing-page-gem
 public-url: https://register.kcc.edu
 url: https://register.kcc.edu
 port: 3000
-# BUILD
 google-tag_key: GTM-N722V2X
 custom_site_js: false
 custom_site_styling: true
