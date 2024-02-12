@@ -36,11 +36,6 @@ _site
 ### Nodejs Stuffs ###
 # Ignore node modules
 node_modules/
-# Avoid win/mac/linux version discrepancies
-package-lock.json
-
-# Ignore gem lock to avoid mac/windows discrepancies
-Gemfile.lock
 
 # Jekyll 4's new caching dir
 .jekyll-cache/
