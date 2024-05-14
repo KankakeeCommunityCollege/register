@@ -33,6 +33,8 @@ exclude:
   - "webpack.config.js"
   - "buildtools/"
   - "postcss.config.js"
+  - "look-for-deprecated-bs4-classes.mjs"
+  - "look-for-deprecated-bs4-js.mjs"
 
 uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
 
