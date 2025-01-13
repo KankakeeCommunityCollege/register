@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col text-center">
         <h5 class="text-center benefits__typography--h5  benefits__typography--h5--mb">
-          Why Choose KCC?
+          {{ page.icon_section_heading }}
         </h5>
       </div>
     </div>
@@ -29,10 +29,12 @@
         <h6 class="benefits__typography--h6 text-center editable">
           Love What You Do
         </h6>
-        <p class="text-center typography__larger-p">
-          KCC has degree & certificate <strong>options to fit your interests</strong>.
-          You can transfer after KCC to complete a bachelor's degree, or enter the&nbsp;workforce.
-        </p>
+        <div class="editable">
+          <p class="text-center typography__larger-p">
+            KCC has degree & certificate <strong>options to fit your interests</strong>.
+            You can transfer after KCC to complete a bachelor's degree, or enter the&nbsp;workforce.
+          </p>
+        </div>
       </div>
       <div class="col-12 col-md-4">
         <div class="text-center">
@@ -41,10 +43,12 @@
         <h6 class="benefits__typography--h6 text-center editable">
           Reach Your Goals
         </h6>
-        <p class="text-center typography__larger-p">
-          We care about your progress and want you to succeed.
-          KCC's small class sizes, faculty and support services <strong>help you stay on track to&nbsp;graduate.</strong>
-        </p>
+        <div class="editable">
+          <p class="text-center typography__larger-p">
+            We care about your progress and want you to succeed.
+            KCC's small class sizes, faculty and support services <strong>help you stay on track to&nbsp;graduate.</strong>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -55,52 +59,11 @@
     <div class="row">
       <div class="col">
         <h5 class="benefits__typography--h5 benefits__testimonials--mb text-center">
-          What Our Students Say
+          {{ page.testimonials_heading }}
         </h5>
       </div>
     </div>
-    <div class="row mb-5 mb-lg-0">
-      <div class="col-12 col-md-4 text-center">
-        <img
-         src="{{ page.baseurl }}assets/img/placeholder-square.jpg"
-         data-src="{{ page.baseurl }}uploads/loryelle-robinson_dsc_9075.jpg"
-         width="400"
-         height="400"
-         class="benefits__borders--circle-img img-fluid rounded-circle"
-         alt="LoRyelle Robinson in the Riverfront Campus courtyard">
-      </div>
-      <div class="col-12 col-md-8 align-self-center">
-        <p class="benefits__typography--student-p"><em>
-          Attending KCC was the best choice I have ever made after high school. 
-          Going to Kankakee Community College not only acquires you more time for 
-          making decisions, but it also helps you start saving money before a 
-          potential transfer to a college university.
-        </em></p>
-        <span class="benefits__typography--img-cap ms-5">&mdash;&nbsp;LoRyelle&nbsp;Robinson, A.A. '21</span>
-      </div>
-    </div>
-    <div class="row benefits__row--pad">
-      <div class="col-12 col-md-8 order-2 order-md-1 align-self-center">
-        <p class="benefits__typography--student-p"><em>
-          KCC is a great choice for me. So far, my encounters with the teachers 
-          and staff at KCC have been great! I am able to get a great education 
-          at an affordable cost. The smaller class sizes allow students to get to 
-          know the teacher and fellow classmates a lot easier than a big 200+ size 
-          class at a university. The creativity and passion many have in their area 
-          of study shows up in the classroom.
-        </em></p>
-        <span class="benefits__typography--img-cap ms-5">&mdash;&nbsp;Mark&nbsp;Daniel&nbsp;Cross, Current&nbsp;Student</span>
-      </div>
-      <div class="col-12 col-md-4 text-center order-1 order-md-2">
-        <img
-         src="{{ page.baseurl }}assets/img/placeholder-square.jpg"
-         data-src="{{ page.baseurl }}uploads/mark-daniel-cross_z91_7672.jpg"
-         width="400"
-         height="400"
-         class="benefits__borders--circle-img img-fluid rounded-circle"
-         alt="Mark Daniel Cross in the Miner Memorial Library">
-      </div>
-    </div>
+    {% include testimonials-template.html %}
   </div>
 </section>
 
